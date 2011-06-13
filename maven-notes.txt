@@ -1,0 +1,18 @@
+Getting started guide: http://maven.apache.org/guides/getting-started/index.html
+
+To compile:
+  mvn compile
+
+To test:
+  mvn test
+
+To generate docs:
+  mvn site
+
+To execute a main method: 
+  mvn exec:java -Dexec.mainClass="com.erikars.borrower.Borrower"
+
+To build a classpath for use with java -cp
+  mvn dependency:build-classpath
+  (More in mvn dependency
+  http://maven.apache.org/plugins/maven-dependency-plugin/)

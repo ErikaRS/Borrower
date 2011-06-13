@@ -1,18 +1,13 @@
 package com.erikars.borrower;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import static org.junit.Assert.* ;
 
-public class BorrowerTest extends TestCase {
-  public BorrowerTest(String testName) {
-    super(testName);
-  }
+import java.lang.annotation.Annotation;
 
-  public static Test suite() {
-    return new TestSuite(BorrowerTest.class);
-  }
+import org.junit.*;
 
+public class BorrowerTest {
+  @Test
   public void testBorrower() {
     assertTrue(true);
   }

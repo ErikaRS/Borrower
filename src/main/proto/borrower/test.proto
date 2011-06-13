@@ -1,0 +1,14 @@
+package borrower;
+
+// TODO(erikars): com.erikars.borrower.proto
+option java_package = "com.erikars.borrower";
+option java_outer_classname = "Test";
+
+message Pair {
+  optional string key = 1;
+  optional string value = 2;
+}
+
+message Pairs {
+  repeated Pair pair = 1;
+}
